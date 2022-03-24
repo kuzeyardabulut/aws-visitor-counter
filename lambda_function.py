@@ -11,7 +11,6 @@ def lambda_handler(event, context):
     response = table.get_item(Key= {'id' : 'count'} )
     count = response["Item"]["visitor_count"]
 
-    # increment string version of visit count
     new_count = str(int(count)+1)
     response = table.update_item(
         Key={'id': 'count'},
@@ -21,4 +20,3 @@ def lambda_handler(event, context):
         )
 
     return {'Count':new_count}
-#end lambda_handler
