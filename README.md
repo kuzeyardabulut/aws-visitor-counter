@@ -1,5 +1,5 @@
 # What Is This?
-With this repo, you can save your website visitors number on AWS Dynomodb and you can easily expose as api with AWS Lambda Function. İf you want to add visitor number to your website you should use javascript. In this repo, you will learn your website visitors. 
+With this repo, you can save your website visitors number on AWS DynomoDB and you can easily expose as api with AWS Lambda Function. İf you want to add visitor number to your website you should use Javascript. In this repo, you will learn your website visitors. 
 
 
 
@@ -16,7 +16,7 @@ Than you should edit Item editor like this. After that you should create a Lambd
 
 
 ## Lambda Function
-> This repo does not explain AWS setup. If you are having problems about setting up AWS services. Please review the required documents. 
+> This repo does not explain AWS setup. If you are having problems about setting up AWS Services. Please review the required documents. 
 
 First we are going to write a Lambda Function. Then you will install the `lambda_function.py`. Import or copy everything like this.
 
@@ -33,7 +33,7 @@ If you're making the right adjustments, you need this building.
 
 
 ## Usage of HTML and Javascript
-In this part, we should add javascript command in our website code. You should Write this command inside the HTML code.
+In this part, we should add Javascript command in our website code. You should Write this command inside the HTML code.
 
 ```html
 <script>
