@@ -31,13 +31,13 @@ If you're making the right adjustments, you need this building.
 In this part, we should add javascript command in our website code. You should Write this command inside the HTML code.
 
 ```html
-						<script>
-    						fetch('https://7wf9ddn82f.execute-api.eu-west-1.amazonaws.com/beta')
-      						.then(response => response.json())
-      						.then((data) => {
-        					document.getElementById('visitor_counter').innerText = data.Count
+<script>
+    		fetch('https://xxxxxxxxxx.execute-api.eu-west-1.amazonaws.com/beta') // You should change the link.
+      		.then(response => response.json())
+      		.then((data) => {
+        	document.getElementById('visitor_counter').innerText = data.Count
       											})
-  						</script>
+</script>
 ```
 
 
