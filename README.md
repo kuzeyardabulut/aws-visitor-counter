@@ -48,9 +48,9 @@ In this part, we should add javascript command in our website code. You should W
 With this command now you can call the value. 
 
 If you want to write this value to your website, you should add this command to your HTML code. 
-```<span id="visitor_counter" />```
+```html <span id="visitor_counter" /> ```
 
 After all of that, you can use visitor counter in your website.
 
 
-You can see an example in [here](https://kuzeyardabulut.com/).
+>> You can see an example in [here](https://kuzeyardabulut.com/).
