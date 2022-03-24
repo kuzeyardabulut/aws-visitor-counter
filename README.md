@@ -22,11 +22,22 @@ First we are going to write a Lambda Function. Then you will install the `lamda_
 
 After that create a Get Method in API Gateway. Connect the API Gateway with DynamoDB. After that you should Deploy API and Enable CORS.
 
-![image](https://user-images.githubusercontent.com/54737933/159993769-c25b0b3b-7a00-4250-a3e6-0869f670e09d.png)
+![image](https://user-images.githubusercontent.com/54737933/159994916-e9d9098a-74c0-4a46-b309-e740fe090555.png)
 
 If you're making the right adjustments, you need this building.
 
 
 ## Usage of Javascript
+In this part, we should add javascript command in our website code. You should Write this command inside the HTML code.
+
+```html
+						<script>
+    						fetch('https://7wf9ddn82f.execute-api.eu-west-1.amazonaws.com/beta')
+      						.then(response => response.json())
+      						.then((data) => {
+        					document.getElementById('visitor_counter').innerText = data.Count
+      											})
+  						</script>
+```
 
 
