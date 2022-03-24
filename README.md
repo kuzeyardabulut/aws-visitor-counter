@@ -2,6 +2,8 @@
 With this repo, you can save your website visitors number on AWS Dynomodb and you can easily expose as api with AWS Lambda Function. İf you want to add visitor number to your website you should use javascript. In this repo, you will learn your website visitors. 
 
 
+
+
 ## Creating Services
 First you should create an AWS account. After that you need to create a table named VisitorCount from DynamoDB and partition key must be id(String). 
 
@@ -9,6 +11,8 @@ First you should create an AWS account. After that you need to create a table na
 
 
 Than you should edit Item editor like this. After that you should create a Lambda and API Gateway.
+
+
 
 
 ## Lambda Function
@@ -24,6 +28,8 @@ After that create a Get Method in API Gateway. Connect the API Gateway with Dyna
 ![image](https://user-images.githubusercontent.com/54737933/159994916-e9d9098a-74c0-4a46-b309-e740fe090555.png)
 
 If you're making the right adjustments, you need this building.
+
+
 
 
 ## Usage of HTML and Javascript
