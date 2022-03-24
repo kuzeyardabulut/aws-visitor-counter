@@ -27,7 +27,7 @@ After that create a Get Method in API Gateway. Connect the API Gateway with Dyna
 If you're making the right adjustments, you need this building.
 
 
-## Usage of Javascript
+## Usage of HTML and Javascript
 In this part, we should add javascript command in our website code. You should Write this command inside the HTML code.
 
 ```html
