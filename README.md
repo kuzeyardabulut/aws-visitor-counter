@@ -13,7 +13,7 @@ Than you should edit Item editor like this. After that you should create a Lambd
 
 
 ## Lambda Function
-This repo does not explain AWS setup. If you are having problems about setting up AWS services. Please review the required documents. 
+> This repo does not explain AWS setup. If you are having problems about setting up AWS services. Please review the required documents. 
 
 First we are going to write a Lambda Function. Then you will install the `lamda_fuction.py`. Import or copy everything like this.
 
