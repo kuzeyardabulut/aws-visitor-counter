@@ -53,4 +53,4 @@ If you want to write this value to your website, you should add this command to 
 After all of that, you can use visitor counter in your website.
 
 
-You can see an example in [here](kuzeyardabulut.com).
+You can see an example in [here](https://kuzeyardabulut.com/).
