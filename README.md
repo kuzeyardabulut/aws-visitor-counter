@@ -1,5 +1,5 @@
 # What Is This?
-With this repo, you can save your website visitors number on AWS DynomoDB and you can easily expose as api with AWS Lambda Function. İf you want to add visitor number to your website you should use Javascript. In this repo, you will learn your website visitors. 
+With this repo, you can save your website visitors number on AWS DynomoDB and you can easily expose as api with AWS Lambda Function. If you want to add visitor number to your website you should use Javascript. In this repo, you will learn how to make visitor counter without using AWS Services. 
 
 
 
